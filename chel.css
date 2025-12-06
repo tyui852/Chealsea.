@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #003087; 
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: #003087;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #5408d8;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #f1c40f; 
+}
+
+#home {
+    background-color: #fff;
+    padding: 50px 0
+    background :a;
+}
+
+#home h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #555;
+}
+#history {
+   ;
+    padding: 50px 0;
+}
+#history .container {
+    background-color: rgba(255, 255, 255, 0.6); 
+    padding: 30px;
+    border-radius: 10px;
+}
+#history{
+  background-image: url("https://www.sportsnews.com.au/wp-content/uploads/2020/06/Chelsea.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(241, 16, 16);
+  padding: 50px;
+
+}
+
+#history h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#history p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #130909;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(180deg, #034694 0%, #ffffff 100%);
+  color: #333;
+}
+
+header {
+  background-color: #012b76;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+nav {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 14px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #034694;
+  text-decoration: none;
+  margin: 0 25px;
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #034694;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+nav a:hover {
+  color: #1a73e8;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 50px 30px;
+  animation: fadeIn 0.8s ease;
+}
+
+.logo {
+  width: 130px;
+  margin-bottom: 25px;
+  transition: transform 0.3s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+h2 {
+  color: #034694;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 17px;
+  color: #444;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.players-section {
+  max-width: 1000px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.players-section h2 {
+  color: #034694;
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.players-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  padding: 0 20px;
+}
+.player-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.player-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.player-card img {
+  width: 100%;
+  border-radius: 12px;
+  height: 220px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.player-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #034694;
+  margin-bottom: 5px;
+}
+
+.player-position {
+  color: #777;
+  font-size: 15px;
+}
+.tt {
+    font-family: "Times New Roman", serif;
+    color: "wh"; 
+    padding: 30px;
+    border-left: 6px solid #001489; 
+    border-radius: 8px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 12px rgba(0, 91, 70, 0.1);
+}
+
+.tt h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tt p {
+    font-size: 18px;
+    text-align: justify;
+    color: #f4f4f4;
+    
+}
+.tt {
+   background-image: url("https://img.chelseafc.com/image/upload/f_auto,q_auto:best,f_auto,q_90,c_fill,h_700/site-sections/stamford-bridge/stadium-tours/Champions_League_Trophies.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+<style>
+    nav ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+        transition: 0.4s; 
+    }
+
+    nav ul li a:hover {
+        color: royalblue;
+        transform: scale(1.1); 
+    }
+</style>
